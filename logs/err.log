@@ -1,0 +1,40 @@
+/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/cardbot/bot.py", line 166, in select_location
+    data,s,b,value = str(c.data).split('_')
+ValueError: too many values to unpack (expected 4)
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/conversationhandler.py", line 517, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "/home/telegrambot/cardbot/bot.py", line 166, in select_location
+    data,s,b,value = str(c.data).split('_')
+ValueError: too many values to unpack (expected 4)
+/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(
+/home/telegrambot/.local/lib/python3.8/site-packages/telegram/ext/conversationhandler.py:251: UserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message.
+  warnings.warn(

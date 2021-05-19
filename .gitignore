@@ -1,0 +1,5 @@
+__pycache__
+.env
+manage_data.py
+update_local.py
+data_local.db
